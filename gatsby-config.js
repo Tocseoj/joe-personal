@@ -1,10 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`
+    title: `Joe Scot Marshall`,
+    description: `I'm kicking off my next, great Gatsby project with a personal website. This will slowly develop into what I've done with myself.`,
+    author: `@tocseoj`
   },
   plugins: [
+    // {
+    //   resolve: `gatsby-plugin-typography`,
+    //   options: {
+    //     pathToConfigModule: `src/utils/typography`,
+    //     omitGoogleFont: false
+    //   }
+    // },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
